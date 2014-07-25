@@ -128,6 +128,9 @@
     "/pa/units/sea/sonar_adv/sonar_adv.json", 
     "/pa/units/sea/torpedo_launcher/torpedo_launcher.json", 
     "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json",
-    "/pa/units/ai/egg/egg.json"
+    "/pa/units/ai/test_box_1/test_box_1.json",
+    "/pa/units/ai/test_box_2/test_box_2.json",
+    "/pa/units/ai/test_box_3/test_box_3.json",
+    "/pa/units/ai/test_factory/test_factory.json"
   ]
 }

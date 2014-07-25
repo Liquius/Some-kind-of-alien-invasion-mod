@@ -1,10 +1,19 @@
 {
   "unit_map": {
-    "Egg": {
-      "spec_id": "/pa/units/ai/egg/egg.json"
-    }, 
     "Commander": {
       "unit_types": "Commander"
-    } 
+    }, 
+        "test_box_1": {
+      "spec_id": "/pa/units/ai/test_box_1/test_box_1.json"
+    }, 
+        "test_box_2": {
+      "spec_id": "/pa/units/ai/test_box_2/test_box_2.json"
+    }, 
+        "test_box_3": {
+      "spec_id": "/pa/units/ai/test_box_3/test_box_3.json"
+    }, 
+        "test_factory": {
+      "spec_id": "/pa/units/ai/test_factory/test_factory.json"
+    }
   }
 }
