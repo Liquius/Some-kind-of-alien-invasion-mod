@@ -1,0 +1,10 @@
+{
+  "unit_map": {
+    "Egg": {
+      "spec_id": "/pa/units/ai/egg/egg.json"
+    }, 
+    "Commander": {
+      "unit_types": "Commander"
+    } 
+  }
+}

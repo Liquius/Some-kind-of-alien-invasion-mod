@@ -1,0 +1,1 @@
+{"blend_root":{"type":"unit_state","nodes":{"being_built":{"type":"bind_pose"},"living":{"type":"walk","node_idle":{"type":"bind_pose"},"node_walk":{"type":"playback","anim_name":"drive"}},"dead":{"type":"bind_pose"},"ghost":{"type":"bind_pose"}}}}

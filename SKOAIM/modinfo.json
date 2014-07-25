@@ -1,0 +1,1 @@
+{    "enabled" : true,    "context" : "server",    "identifier" : "com.realmmods.skoaim",    "display_name" : "Some kind of alien invasion mod",    "description" : "have a guess",    "author" : "Liquius",    "version" : "1",    "signature" : "(not yet implemented)"}
