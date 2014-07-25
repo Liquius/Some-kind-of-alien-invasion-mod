@@ -283,7 +283,8 @@
     "UNITTYPE_Structure", 
     "UNITTYPE_EnergyProduction", 
     "UNITTYPE_Advanced", 
-    "UNITTYPE_FabAdvBuild", 
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_CmdBuild", 
     "UNITTYPE_Economy"
   ]
 }

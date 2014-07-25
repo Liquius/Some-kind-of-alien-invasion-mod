@@ -6,28 +6,45 @@
         [
           {
             "compare0": "<", 
-            "test_type": "PotentialMetalEfficiency", 
-            "value0": 1.0
+            "test_type": "UnitCountOnPlanet", 
+            "unit_type_string0": "test_factory", 
+            "value0": 1
           }
         ]
       ], 
       "builders": [
         "Commander"
       ], 
-      "instance_count": 2, 
-      "name": "Basic Metal Extractor - cdr", 
+      "instance_count": 1, 
+      "name": "test_factory", 
       "placement_rules": {
-        "placement_type": "FromMainBaseCenter", 
-        "threat": {
-          "compare_type": "<", 
-          "influence_type": "AntiSurface", 
-          "radius": 10, 
-          "value": 50
-        }
+        "placement_type": "FromMainBaseCenter"
       }, 
       "priority": 261, 
-      "shared_instance_count": "BasicMetal", 
-      "to_build": "Egg"
-    }
+      "to_build": "test_factory"
+    },
+    {
+      "base_sort": "FromBuilder", 
+      "build_conditions": [
+        [
+          {
+            "compare0": "=", 
+            "test_type": "UnitCountOnPlanet", 
+            "unit_type_string0": "test_factory", 
+            "value0": 1
+          }
+        ]
+      ], 
+      "builders": [
+        "Commander"
+      ], 
+      "instance_count": 1, 
+      "name": "test_building", 
+      "placement_rules": {
+        "placement_type": "FromMainBaseCenter"
+      }, 
+      "priority": 261, 
+      "to_build": "test_building"
+    } 
   ]
 }
