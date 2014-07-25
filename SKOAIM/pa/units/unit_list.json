@@ -131,6 +131,7 @@
     "/pa/units/ai/test_box_1/test_box_1.json",
     "/pa/units/ai/test_box_2/test_box_2.json",
     "/pa/units/ai/test_box_3/test_box_3.json",
-    "/pa/units/ai/test_factory/test_factory.json"
+    "/pa/units/ai/test_factory/test_factory.json",
+    "/pa/units/ai/test_building/test_building.json"
   ]
 }
