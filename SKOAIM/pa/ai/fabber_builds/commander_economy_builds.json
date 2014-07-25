@@ -5,7 +5,7 @@
       "build_conditions": [
         [
           {
-            "compare0": "<", 
+            "compare0": "!=", 
             "test_type": "UnitCountOnPlanet", 
             "unit_type_string0": "test_factory", 
             "value0": 1
@@ -43,7 +43,7 @@
       "placement_rules": {
         "placement_type": "FromMainBaseCenter"
       }, 
-      "priority": 261, 
+      "priority": 262, 
       "to_build": "test_building"
     } 
   ]

@@ -17,6 +17,9 @@
     }, 
     "test_building": {
       "spec_id": "/pa/units/ai/test_building/test_building.json"
+    },
+    "AnyUnit": {
+      "unit_types": "Commander & test"
     }
   }
 }
