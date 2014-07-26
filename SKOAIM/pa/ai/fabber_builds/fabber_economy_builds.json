@@ -67,6 +67,7 @@
         }
       }, 
       "priority": 140, 
+      "shared_instance_count": "BasicEnergy",
       "to_build": "TestBuilding"
     }
   ]
