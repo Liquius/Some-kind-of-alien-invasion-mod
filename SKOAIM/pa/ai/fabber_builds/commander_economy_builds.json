@@ -1,50 +1,76 @@
 {
   "build_list": [
-    {
-      "base_sort": "FromBuilder", 
+        {
       "build_conditions": [
+        [ 
+          {
+            "boolean": false, 
+            "test_type": "NeedBasicLandFactory"
+          },
+          {
+            "string0": "BasicBotFactory", 
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ], 
         [
           {
-            "compare0": "!=", 
-            "test_type": "UnitCountOnPlanet", 
-            "unit_type_string0": "test_factory", 
-            "value0": 1
+            "boolean": true, 
+            "test_type": "NeedBasicLandFactory"
+          }, 
+          {
+            "string0": "BasicBotFactory", 
+            "test_type": "CanFindPlaceToBuild"
           }
         ]
       ], 
       "builders": [
-        "Commander"
+        "Commander" 
       ], 
       "instance_count": 1, 
-      "name": "test_factory", 
+      "name": "Test Factory", 
       "placement_rules": {
-        "placement_type": "FromMainBaseCenter"
+        "buffer": 15, 
+        "threat": {
+          "compare_type": "<", 
+          "influence_type": "AntiSurface", 
+          "radius": 10, 
+          "value": 50
+        }
       }, 
-      "priority": 261, 
-      "to_build": "test_factory"
+      "priority": 376, 
+      "shared_instance_count": "BasicFactory", 
+      "to_build": "TestFactroy"
     },
     {
-      "base_sort": "FromBuilder", 
       "build_conditions": [
-        [
+        [ 
           {
-            "compare0": "=", 
-            "test_type": "UnitCountOnPlanet", 
-            "unit_type_string0": "test_factory", 
-            "value0": 1
+            "boolean": false, 
+            "test_type": "NeedBasicLandFactory"
+          },
+          {
+            "string0": "TestBuilding", 
+            "test_type": "CanFindPlaceToBuild"
           }
         ]
       ], 
       "builders": [
-        "Commander"
+        "Commander" 
       ], 
       "instance_count": 1, 
-      "name": "test_building", 
+      "name": "Test Building", 
       "placement_rules": {
-        "placement_type": "FromMainBaseCenter"
+        "buffer": 15, 
+        "threat": {
+          "compare_type": "<", 
+          "influence_type": "AntiSurface", 
+          "radius": 10, 
+          "value": 50
+        }
       }, 
-      "priority": 262, 
-      "to_build": "test_building"
-    } 
+      "priority": 376, 
+      "shared_instance_count": "BasicEnergy", 
+      "to_build": "TestBuilding"
+    }
   ]
 }
