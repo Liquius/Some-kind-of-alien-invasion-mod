@@ -220,5 +220,8 @@
     "UNITTYPE_FabBuild", 
     "UNITTYPE_FabAdvBuild"
   ], 
+  "production": {
+    "metal": 5000
+  }, 
   "wait_to_rolloff_time": 0
 }

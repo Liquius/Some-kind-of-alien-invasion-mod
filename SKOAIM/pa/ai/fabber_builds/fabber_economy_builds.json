@@ -1,3 +1,74 @@
 {
-  "build_list": []
+  "build_list": [    
+    {
+      "build_conditions": [
+        [
+          {
+            "compare0": ">", 
+            "test_type": "MetalStorageToProductionRatio", 
+            "value0": 1
+          }, 
+          {
+            "test_type": "CanAffordBuildDemand"
+          }, 
+          {
+            "string0": "TestFactory", 
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ], 
+      "builders": [
+        "Commander"
+      ], 
+      "instance_count": 1, 
+      "name": "Metal Storage - cdr", 
+      "placement_rules": {
+        "buffer": 10, 
+        "placement_type": "FromBaseCenter", 
+        "threat": {
+          "compare_type": "<", 
+          "influence_type": "AntiSurface", 
+          "radius": 10, 
+          "value": 50
+        }
+      }, 
+      "priority": 140, 
+      "to_build": "TestFactory"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "compare0": "<", 
+            "test_type": "MetalStorageToProductionRatio", 
+            "value0": 20
+          }, 
+          {
+            "test_type": "CanAffordBuildDemand"
+          }, 
+          {
+            "string0": "TestBuilding", 
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ], 
+      "builders": [
+        "Commander"
+      ], 
+      "instance_count": 1, 
+      "name": "Metal Storage - cdr", 
+      "placement_rules": {
+        "buffer": 10, 
+        "placement_type": "FromBaseCenter", 
+        "threat": {
+          "compare_type": "<", 
+          "influence_type": "AntiSurface", 
+          "radius": 10, 
+          "value": 50
+        }
+      }, 
+      "priority": 140, 
+      "to_build": "TestBuilding"
+    }
+  ]
 }
