@@ -23,8 +23,7 @@
       "instance_count": 1, 
       "name": "Metal Storage - cdr", 
       "placement_rules": {
-        "buffer": 10, 
-        "placement_type": "FromBaseCenter", 
+        "buffer": 5, 
         "threat": {
           "compare_type": "<", 
           "influence_type": "AntiSurface", 
@@ -59,7 +58,7 @@
       "name": "Metal Storage - cdr", 
       "placement_rules": {
         "buffer": 10, 
-        "placement_type": "FromBaseCenter", 
+        "placement_type": "FromMainBasePerimeter", 
         "threat": {
           "compare_type": "<", 
           "influence_type": "AntiSurface", 
