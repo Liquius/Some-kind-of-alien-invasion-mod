@@ -1,3 +1,25 @@
 {
-  "build_list": []
+  "build_list": [
+      {
+      "build_conditions": [
+        [
+          {
+            "boolean": false, 
+            "test_type": "AloneOnPlanet"
+          }, 
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ]
+      ], 
+      "builders": [
+        "TestFactory"
+      ], 
+      "instance_count": 5, 
+      "max_num_assisters": 15, 
+      "name": "Advanced Armor Tank", 
+      "priority": 199, 
+      "to_build": "TestBox1"
+    }
+  ]
 }
