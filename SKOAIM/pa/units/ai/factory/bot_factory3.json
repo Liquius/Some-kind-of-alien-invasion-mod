@@ -215,11 +215,11 @@
     "UNITTYPE_Land", 
     "UNITTYPE_Bot", 
     "UNITTYPE_Structure", 
-    "UNITTYPE_Basic", 
+    "UNITTYPE_Advanced", 
     "UNITTYPE_CmdBuild"
   ], 
   "production": {
-    "metal": 5000
+    "metal": 20
   }, 
   "wait_to_rolloff_time": 0
 }

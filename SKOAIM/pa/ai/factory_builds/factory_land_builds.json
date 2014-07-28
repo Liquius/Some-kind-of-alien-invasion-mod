@@ -6,9 +6,6 @@
           {
             "boolean": false, 
             "test_type": "AloneOnPlanet"
-          }, 
-          {
-            "test_type": "CanAffordBuildDemand"
           }
         ]
       ], 
@@ -27,9 +24,6 @@
           {
             "boolean": false, 
             "test_type": "AloneOnPlanet"
-          }, 
-          {
-            "test_type": "CanAffordBuildDemand"
           }
         ]
       ], 
@@ -48,9 +42,6 @@
           {
             "boolean": false, 
             "test_type": "AloneOnPlanet"
-          }, 
-          {
-            "test_type": "CanAffordBuildDemand"
           }
         ]
       ], 

@@ -1,27 +1,20 @@
 {
-  "build_list": [ 
-    {
+  "build_list": [{
       "build_conditions": [
         [
-          {
-            "compare0": "=", 
-            "test_type": "UnitCount", 
-            "unit_type_string0": "BasicEnergy", 
-            "value0": 1
-          }, 
           {
             "string0": "WL_AnySurface", 
             "string1": "WL_AnySurface", 
             "test_type": "CanAttackWithPoolUnitsLand", 
-            "unit_type_string0": "Mobile | Structure"
+            "unit_type_string0": "Mobile & Bot"
           }
         ]
       ], 
-      "instance_count": 1, 
-      "name": "Land Attack Platoon Wave 1", 
-      "priority": 100, 
+      "instance_count": -1, 
+      "name": "Land Attack Platoon Medium", 
+      "priority": 103, 
       "task_type": "LandAttack", 
-      "to_build": "Wave_1"
+      "to_build": "Attack"
     }
   ]
 }

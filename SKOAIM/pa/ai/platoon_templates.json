@@ -1,18 +1,12 @@
 {
   "platoon_templates": { 
-    "Wave_1": {
+    "Attack": {
       "units": [
         {
-          "max_count": 10, 
-          "min_count": 10, 
-          "squad": "Fast", 
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy"
-        }, 
-        {
-          "max_count": 5, 
+          "max_count": -1, 
           "min_count": 5, 
-          "squad": "General", 
-          "unit_types": "(Tank & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout"
+          "squad": "Fast", 
+          "unit_types": "Bot & Mobile"
         }
       ]
     }

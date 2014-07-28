@@ -213,13 +213,13 @@
     "UNITTYPE_Factory", 
     "UNITTYPE_Construction", 
     "UNITTYPE_Land", 
-    "UNITTYPE_Bot", 
+    "UNITTYPE_Tank", 
     "UNITTYPE_Structure", 
     "UNITTYPE_Basic", 
     "UNITTYPE_CmdBuild"
   ], 
   "production": {
-    "metal": 5000
+    "metal": 20
   }, 
   "wait_to_rolloff_time": 0
 }
