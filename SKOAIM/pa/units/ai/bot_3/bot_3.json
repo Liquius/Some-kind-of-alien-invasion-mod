@@ -50,17 +50,10 @@
     2, 
     4
   ], 
-  "model": {
-    "animations": {
-      "aim_down": "/pa/units/land/assault_bot/assault_bot_anim_aim_dwn.papa", 
-      "aim_up": "/pa/units/land/assault_bot/assault_bot_anim_aim_up.papa", 
-      "death01": "/pa/units/land/assault_bot/assault_bot_anim_death01.papa", 
-      "idle": "/pa/units/land/assault_bot/assault_bot_anim_idle.papa", 
-      "walk": "/pa/units/land/assault_bot/assault_bot_anim_run.papa"
-    }, 
-    "animtree": "/pa/anim/anim_trees/bipedal_mech_anim_tree.json", 
-    "filename": "/pa/units/ai/bot_3/bot_3.papa", 
-    "walk_speed": 20
+  "model": { 
+    "animtree":"/pa/anim/anim_trees/tank_laser_adv_anim_tree.json", 
+    "filename": "/pa/units/ai/bot_3/bot_3.papa",
+    "arrows":5
   }, 
   "navigation": {
     "acceleration": 200, 

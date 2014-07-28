@@ -39,7 +39,7 @@
             "test_type": "UnitRatioOnPlanet", 
             "unit_type_string0": "Structure & Basic & Bot", 
             "unit_type_string1": "Structure & Basic & Tank", 
-            "value0": 0.35
+            "value0": 3
           }
         ]],
       "builders": [
@@ -63,7 +63,7 @@
             "test_type": "UnitRatioOnPlanet", 
             "unit_type_string0": "Structure & Basic & Tank", 
             "unit_type_string1": "Structure & Advanced", 
-            "value0": 0.35
+            "value0": 3
           }
         ]],
       "builders": [
