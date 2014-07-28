@@ -64,7 +64,7 @@
   }, 
   "physics": {
     "push_class": 2, 
-    "radius": 2.0
+    "radius": 4.0
   }, 
   "recon": {
     "observer": {
