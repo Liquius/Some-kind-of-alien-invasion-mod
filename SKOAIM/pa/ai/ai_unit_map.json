@@ -3,20 +3,23 @@
     "Commander": {
       "unit_types": "Commander"
     }, 
-    "TestFactory": {
-      "spec_id": "/pa/units/ai/test_factory/test_factory.json"
-    },
-    "TestBuilding": {
-      "spec_id": "/pa/units/ai/test_building/test_building.json"
-    },
-    "TestBox1": {
-      "spec_id": "/pa/units/ai/test_box_1/test_box_1.json"
-    },
-    "TestBox2": {
-      "spec_id": "/pa/units/ai/test_box_2/test_box_2.json"
-    },
-    "TestBox3": {
-      "spec_id": "/pa/units/ai/test_box_3/test_box_3.json"
+    "Bot1": {
+      "spec_id": "/pa/units/ai/bot_1/bot_1.json"
+    }, 
+    "Bot2": {
+      "spec_id": "/pa/units/ai/bot_2/bot_2.json"
+    }, 
+    "Bot3": {
+      "spec_id": "/pa/units/ai/bot_3/bot_3.json"
+    }, 
+    "BotFactory1": {
+      "spec_id": "/pa/units/ai/factory/bot_factory1.json"
+    }, 
+    "BotFactory2": {
+      "spec_id": "/pa/units/ai/factory/bot_factory2.json"
+    }, 
+    "BotFactory3": {
+      "spec_id": "/pa/units/ai/factory/bot_factory3.json"
     }
   }
 }

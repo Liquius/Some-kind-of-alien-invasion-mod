@@ -13,13 +13,55 @@
         ]
       ], 
       "builders": [
-        "TestFactory"
+        "BotFactory1"
       ], 
-      "instance_count": 5, 
+      "instance_count": -1, 
       "max_num_assisters": 15, 
       "name": "Advanced Armor Tank", 
       "priority": 199, 
-      "to_build": "TestBox1"
+      "to_build": "Bot1"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false, 
+            "test_type": "AloneOnPlanet"
+          }, 
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ]
+      ], 
+      "builders": [
+        "BotFactory2"
+      ], 
+      "instance_count": -1, 
+      "max_num_assisters": 15, 
+      "name": "Advanced Armor Tank", 
+      "priority": 199, 
+      "to_build": "Bot2"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false, 
+            "test_type": "AloneOnPlanet"
+          }, 
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ]
+      ], 
+      "builders": [
+        "BotFactory3"
+      ], 
+      "instance_count": -1, 
+      "max_num_assisters": 15, 
+      "name": "Advanced Armor Tank", 
+      "priority": 199, 
+      "to_build": "Bot3"
     }
   ]
 }

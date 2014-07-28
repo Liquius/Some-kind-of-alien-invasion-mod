@@ -4,15 +4,13 @@
       "build_conditions": [
         [
           {
-            "compare0": ">", 
-            "test_type": "MetalStorageToProductionRatio", 
-            "value0": 1
+            "compare0": "=<", 
+            "test_type": "UnitCountOnPlanet", 
+            "unit_type_string0": "BotFactory1", 
+            "value0": 4
           }, 
           {
-            "test_type": "CanAffordBuildDemand"
-          }, 
-          {
-            "string0": "TestFactory", 
+            "string0": "BotFactory1", 
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -32,7 +30,8 @@
         }
       }, 
       "priority": 140, 
-      "to_build": "TestFactory"
+      "placement_type": "FromMainBaseCenter", 
+      "to_build": "BotFactory1"
     },
     {
       "build_conditions": [
@@ -40,14 +39,7 @@
           {
             "compare0": "<", 
             "test_type": "MetalStorageToProductionRatio", 
-            "value0": 20
-          }, 
-          {
-            "test_type": "CanAffordBuildDemand"
-          }, 
-          {
-            "string0": "TestBuilding", 
-            "test_type": "CanFindPlaceToBuild"
+            "value0": 1
           }
         ]
       ], 
@@ -57,8 +49,7 @@
       "instance_count": 1, 
       "name": "Metal Storage - cdr", 
       "placement_rules": {
-        "buffer": 10, 
-        "placement_type": "FromMainBasePerimeter", 
+        "buffer": 5, 
         "threat": {
           "compare_type": "<", 
           "influence_type": "AntiSurface", 
@@ -67,8 +58,7 @@
         }
       }, 
       "priority": 140, 
-      "shared_instance_count": "AdvancedEnergy",
-      "to_build": "TestBuilding"
+      "to_build": "BotFactory1"
     }
   ]
 }
