@@ -2,7 +2,7 @@
   "unit_map": {
     "Commander": {
       "unit_types": "Commander"
-    }, 
+    },
     "Bot1": {
       "spec_id": "/pa/units/ai/bot_1/bot_1.json"
     }, 

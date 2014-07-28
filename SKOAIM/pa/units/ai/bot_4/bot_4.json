@@ -51,7 +51,7 @@
     4
   ], 
   "model": { 
-    "animtree":"/pa/anim/anim_trees/tank_laser_adv_anim_tree.json", 
+    "animtree":"/pa/anim/anim_trees/ai_bot1_anim_tree.json", 
     "filename": "/pa/units/ai/bot_4/bot_4.papa",
     "arrows":5
   }, 

@@ -1,5 +1,5 @@
 {
-  "build_list": [    
+  "build_list": [
     {
       "build_conditions": [
         [
@@ -15,18 +15,12 @@
       "instance_count": 1, 
       "name": "Metal Storage - cdr", 
       "placement_rules": {
-        "buffer": 5, 
-        "threat": {
-          "compare_type": "<", 
-          "influence_type": "AntiSurface", 
-          "radius": 10, 
-          "value": 50
-        }
+        "buffer": 5
       }, 
       "priority": 140, 
       "placement_type": "FromMainBaseCenter", 
       "to_build": "BotFactory1"
-    },   
+    },     
     {
       "build_conditions": [
         [
