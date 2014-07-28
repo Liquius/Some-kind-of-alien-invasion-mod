@@ -1,12 +1,12 @@
 {
-  "ammo_id": "/pa/units/ai/bot_3/bot_3_ammo.json", 
+  "ammo_id": "/pa/units/ai/bot_4/bot_4_ammo.json", 
   "auto_attack": true, 
   "base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json", 
   "idle_aim_delay": 1.0, 
-  "max_range": 140, 
+  "max_range": 160, 
   "pitch_range": 40, 
   "pitch_rate": 360, 
-  "rate_of_fire": 0.25, 
+  "rate_of_fire": 2, 
   "target_layers": [
     "WL_LandHorizontal", 
     "WL_Seafloor", 

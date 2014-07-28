@@ -12,6 +12,9 @@
     "Bot3": {
       "spec_id": "/pa/units/ai/bot_3/bot_3.json"
     }, 
+    "Bot4": {
+      "spec_id": "/pa/units/ai/bot_4/bot_4.json"
+    }, 
     "BotFactory1": {
       "spec_id": "/pa/units/ai/factory/bot_factory1.json"
     }, 
@@ -20,6 +23,9 @@
     }, 
     "BotFactory3": {
       "spec_id": "/pa/units/ai/factory/bot_factory3.json"
+    }, 
+    "BotFactory4": {
+      "spec_id": "/pa/units/ai/factory/bot_factory4.json"
     }
   }
 }

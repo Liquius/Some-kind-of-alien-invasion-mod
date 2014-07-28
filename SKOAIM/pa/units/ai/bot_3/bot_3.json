@@ -44,7 +44,7 @@
   }, 
   "guard_layer": "WL_AnySurface", 
   "guard_radius": 90, 
-  "max_health": 400, 
+  "max_health": 600, 
   "mesh_bounds": [
     4, 
     2, 
@@ -56,9 +56,9 @@
     "arrows":5
   }, 
   "navigation": {
-    "acceleration": 200, 
-    "brake": 200, 
-    "move_speed": 20, 
+    "acceleration": 100, 
+    "brake": 100, 
+    "move_speed": 16, 
     "turn_speed": 720, 
     "type": "land-small"
   }, 

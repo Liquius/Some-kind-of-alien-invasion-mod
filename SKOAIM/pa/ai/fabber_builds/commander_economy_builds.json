@@ -63,7 +63,7 @@
             "test_type": "UnitRatioOnPlanet", 
             "unit_type_string0": "Structure & Basic & Tank", 
             "unit_type_string1": "Structure & Advanced", 
-            "value0": 3
+            "value0": 2
           }
         ]],
       "builders": [
@@ -74,6 +74,30 @@
       "name": "Basic Artillery Bot", 
       "priority": 500, 
       "to_build": "BotFactory3"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false, 
+            "test_type": "AloneOnPlanet"
+          }, 
+          {
+            "compare0": ">", 
+            "test_type": "UnitRatioOnPlanet", 
+            "unit_type_string0": "Structure & Advanced", 
+            "unit_type_string1": "Structure & Air", 
+            "value0": 2
+          }
+        ]],
+      "builders": [
+      "Commander"
+      ], 
+      "instance_count": 1, 
+      "max_num_assisters": 10, 
+      "name": "Basic Artillery Bot", 
+      "priority": 500, 
+      "to_build": "BotFactory4"
     }
   ]
 }

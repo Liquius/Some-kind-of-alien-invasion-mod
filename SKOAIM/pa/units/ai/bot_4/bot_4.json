@@ -5,7 +5,7 @@
       "head": [
         0, 
         0, 
-        3.5
+        4.5
       ], 
       "root": [
         0, 
@@ -44,7 +44,7 @@
   }, 
   "guard_layer": "WL_AnySurface", 
   "guard_radius": 90, 
-  "max_health": 300, 
+  "max_health": 3000, 
   "mesh_bounds": [
     4, 
     2, 
@@ -52,19 +52,19 @@
   ], 
   "model": { 
     "animtree":"/pa/anim/anim_trees/tank_laser_adv_anim_tree.json", 
-    "filename": "/pa/units/ai/bot_2/bot_2.papa",
+    "filename": "/pa/units/ai/bot_4/bot_4.papa",
     "arrows":5
   }, 
   "navigation": {
-    "acceleration": 200, 
-    "brake": 200, 
-    "move_speed": 20, 
+    "acceleration": 50, 
+    "brake": 50, 
+    "move_speed": 10, 
     "turn_speed": 720, 
     "type": "land-small"
   }, 
   "physics": {
-    "push_class": 2, 
-    "radius": 4.0
+    "push_class": 50, 
+    "radius": 15
   }, 
   "recon": {
     "observer": {
@@ -82,12 +82,12 @@
     {
       "aim_bone": "socket_aim", 
       "muzzle_bone": "socket_rightMuzzle", 
-      "spec_id": "/pa/units/ai/bot_2/bot_2_tool_weapon.json"
+      "spec_id": "/pa/units/ai/bot_4/bot_4_tool_weapon.json"
     }, 
     {
       "aim_bone": "socket_aim", 
       "muzzle_bone": "socket_leftMuzzle", 
-      "spec_id": "/pa/units/ai/bot_2/bot_2_tool_weapon.json"
+      "spec_id": "/pa/units/ai/bot_4/bot_4_tool_weapon.json"
     }
   ], 
   "transportable": {
